@@ -135,3 +135,63 @@ footer address div a {
 footer address div a:hover {
   color: red;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+  nav li {
+    display: block;
+    padding-right: 0;
+    margin: 10px 0;
+  }
+  nav ul {
+    text-align: center;
+  }
+  main {
+    margin-top: 120px;
+    padding: 10px;
+  }
+  section {
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  footer {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    font-size: 18px;
+    padding: 8px;
+  }
+  nav ul {
+    padding: 0;
+  }
+  nav li {
+    display: block;
+    padding-right: 0;
+    margin: 8px 0;
+  }
+  nav a, .dropbtn {
+    padding: 10px;
+  }
+  main {
+    margin-top: 100px;
+    padding: 8px;
+  }
+  section {
+    width: 100%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  footer {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
