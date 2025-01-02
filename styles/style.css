@@ -12,10 +12,6 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
   width: 100%;
 }
 nav ul {
