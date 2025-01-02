@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="author" content="Muhammad Ali" />
+    <meta
+      name="description"
+      content="Get in touch with Muhammad Ali, an aspiring web developer. 
+      Use the contact form or email directly to connect."
+    />
+    <meta
+      name="keywords"
+      content="Muhammad Ali, web developer, contact, email, form"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <title>Contact - Muhammad Ali Dev Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Muhammad Ali Developer Portfolio</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"> Home </a>
+          </li>
+          <li>
+            <a href="skills.html"> My Skills </a>
+          </li>
+          <li>
+            <a href="portfolio.html"> Portfolio </a>
+          </li>
+          <li class="dropdown">
+            <a href="projects/index.html" class="dropbtn">Projects</a>
+            <div class="dropdown-content">
+              <a href="projects/index.html">ICC Champions Trophy 2025</a>
+              <a href="projects/project_2.html">CatPhotoApp</a>
+              <a href="projects/project_3.html">LearnHTML</a>
+            </div>
+          </li>
+          <li>
+            <a href="blog.html"> My Blog </a>
+          </li>
+          <li>
+            <a href="contact.html"> Contact Me </a>
+          </li>
+          <li>
+            <a href="about.html"> About Me </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Contact Me</h2>
+        <form action="thank_you.html" method="post">
+          <fieldset>
+            <legend>Contact Form</legend>
+            <div>
+              <label for="name">Name: </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                placeholder="Ali"
+              />
+            </div>
+            <br />
+            <div>
+              <label for="email">Email: </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="abc@ab.a"
+                required
+              />
+            </div>
+            <br />
+            <label for="message">Message:</label>
+            <br />
+            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+            <br />
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"> Home </a>
+          </li>
+          <li>
+            <a href="skills.html"> My Skills </a>
+          </li>
+          <li>
+            <a href="portfolio.html"> My Work </a>
+          </li>
+          <li class="dropdown">
+            <a href="projects/index.html" class="dropbtn">Projects</a>
+            <div class="dropdown-content">
+              <a href="projects/index.html">ICC Champions Trophy 2025</a>
+              <a href="projects/project_2.html">CatPhotoApp</a>
+              <a href="projects/project_3.html">LearnHTML</a>
+            </div>
+          </li>
+          <li>
+            <a href="blog.html"> My Blog </a>
+          </li>
+          <li>
+            <a href="contact.html"> Contact Me </a>
+          </li>
+          <li>
+            <a href="about.html"> About Me </a>
+          </li>
+        </ul>
+      </nav>
+      <address>
+      <div>
+        Mail me:
+        <a href="mailto:muhammad098ali.1@gmail.com"
+          >muhammad098ali.1@gmail.com</a
+        >
+      </div>
+      <div>Peshawar, Kpk, Pakistan</div>
+    </address>
+      <div>&copy; Muhammad Ali. All rights reserved.</div>
+    </footer>
+  </body>
+</html>

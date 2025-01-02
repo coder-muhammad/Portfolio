@@ -1,0 +1,137 @@
+* {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 5px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  color: red;
+}
+nav ul li a,
+.dropbtn {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #111;
+}
+.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+main {
+  margin-top: 145px;
+  padding: 15px;
+  background-color: #33333351;
+}
+main > section {
+  background-color: #33333358;
+  border: 1px solid #33333358;
+}
+main > section:hover {
+  background-color: #3333330e;
+}
+main > section > section:hover {
+  background-color: #bf666685;
+  color: white;
+}
+section p {
+  text-align: justify;
+}
+section {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  border-radius: 60px 60px;
+}
+section a {
+  text-decoration: none;
+  color: rgb(2, 41, 235);
+}
+section a:hover {
+  font-weight: bolder;
+}
+main > section > section > h3 {
+  text-align: center;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+footer ul {
+  list-style-type: none;
+}
+footer li {
+  padding: 3px;
+}
+address {
+  padding: 15px;
+} 
+address div {
+  padding: 5px;
+}
+footer address div a {
+  text-decoration: none;
+  color: white;
+}
+footer address div a:hover {
+  color: red;
+}
