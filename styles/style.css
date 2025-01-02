@@ -47,7 +47,7 @@ nav ul li a,
   text-decoration: none;
 }
 nav ul li a:hover,
-.dropdown:hover .dropbtn {
+.dropdown-content:hover .dropbtn {
   background-color: #111;
 }
 .dropdown {
@@ -62,13 +62,16 @@ nav ul li a:hover,
 }
 .dropdown-content a {
   color: black;
-  padding: clamp(10px, 1vw, 20px) clamp(10px, 1vw, 20px); /* Scales padding */
+  padding: clamp(5px, 1vw, 10px) clamp(10px, 1vw, 20px); /* Scales padding */
   text-decoration: none;
   display: block;
   text-align: left;
 }
 .dropdown-content a:hover {
   background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 /* Dropdown on Click */
 .dropdown input[type="checkbox"] {
