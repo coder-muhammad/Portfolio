@@ -132,6 +132,33 @@ footer address div a:hover {
 }
 
 /* Responsive Styles */
+@media (max-width: 1024px) {
+  header {
+    padding: 15px;
+  }
+  nav li {
+    display: inline-block;
+    padding-right: 15px;
+    margin: 5px 0;
+  }
+  nav ul {
+    text-align: center;
+  }
+  main {
+    margin-top: 130px;
+    padding: 12px;
+  }
+  section {
+    width: 80%;
+    margin: 15px auto;
+    padding: 18px;
+    border-radius: 30px;
+  }
+  footer {
+    padding: 15px;
+  }
+}
+
 @media (max-width: 768px) {
   header {
     padding: 10px;
